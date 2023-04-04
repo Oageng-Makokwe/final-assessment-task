@@ -1,0 +1,141 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+}
+
+nav{
+    width: 97%;
+    height: 100px;
+    margin-left: 3%;
+}
+
+nav h1{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    padding-top: 30px;
+    color: white;
+    width: 500px;
+}
+
+ul{
+    float: right;
+    margin-top: -23px;
+}
+nav li{
+    float: left;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: -20px;
+}
+
+.row{
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.col-3{
+    width: 340px;
+    border: 2px lightgrey solid;
+    border-radius: 5px;
+    color: #2b2b2b;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+
+.overlay{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../assets/remove.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.overlay:hover{
+    cursor: pointer;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.img{
+    margin-left: 15%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.j{
+    background-image: url(../assets/John.jpg);
+}
+
+.ja{
+    background-image: url(../assets/Jane.jpg);
+}
+
+.s{
+    background-image: url(../assets/Susan.jpg);
+}
+
+.p{
+    background-color: #2b2b2b;
+
+}
+.add{
+
+    border-radius: 50%;
+    margin-top: 25%;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    text-align: center;
+    background-color: #2b2b2b;
+    color: white;
+    border: 2px solid #2b2b2b;
+    border-radius: 5px;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    background-color: white;
+    color: #2b2b2b;
+    border: 3px solid lightgrey;
+}
+
+input{
+    width: 100%;
+    background-color: lightgrey;
+    height: 40px;
+    border-radius: 5px;
+    border: solid lightgrey;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    font-family: 'Overpass', sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: #2b2b2b;
+    text-align: center;
+    padding-top: 40px;
+}
